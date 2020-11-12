@@ -1,0 +1,17 @@
+server:
+  port: 8056
+  servlet:
+    context-path: /unit-conversion
+
+
+logging:
+  level:
+    org:
+      springframework:
+        web : INFO
+      hibernate: INFO
+
+spring:
+  application:
+    name: unit-conversion
+
